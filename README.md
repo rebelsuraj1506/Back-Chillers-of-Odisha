@@ -1,5 +1,13 @@
 # Back-Chillers-of-Odisha
 
+Members:
+1. Harsh Neel Mani
+2. Bhushan Shrirame
+3. Suraj Anand
+4. Urmil Vora
+
+# Introduction
+
 Cycle GANs provide the approach to translate an image from source domain X to target domain Y in absence of paired examples. The goal is to learn a mapping G: X-> Y , and inverse mapping F: Y -> X , and introduce a cycle consistancy loss to enforce F(G(X)) = X and G(F(Y_hat)) = Y_hat. 
 
 The problem that Cycle GANs address can be classified as Image to Image translation. While there are other methods that address the problem with image- target pairs, obtaining these pairs is difficult and expensive. This method is applied for the tasks of style transfer, object transfiguration, and attribute transfer and claims to outperform baseline approaches.
